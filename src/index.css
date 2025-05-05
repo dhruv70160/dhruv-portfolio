@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom styles */
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-luxury-black text-parchment font-body;
+  }
+
+  ::selection {
+    @apply bg-gold/30 text-parchment;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-luxury-black;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gold rounded-full;
+  }
+}
+
+/* Custom Components */
+@layer components {
+  .golden-border {
+    @apply relative before:absolute before:-inset-1 before:bg-gradient-to-r before:from-gold before:to-maroon before:rounded-xl before:z-[-1];
+  }
+
+  .luxury-hover {
+    @apply transition-all duration-300 hover:text-gold hover:drop-shadow-[0_0_8px_rgba(197,165,104,0.6)];
+  }
+
+  .section-title {
+    @apply text-4xl md:text-6xl font-display mb-16 text-center golden-border py-4 px-8;
+  }
+
+  /* PDF Viewer Styles */
+  .react-pdf__Page {
+    @apply mx-auto mb-4;
+  }
+
+  .react-pdf__Page__canvas {
+    @apply max-w-full h-auto;
+  }
+
+  /* Flip card styles */
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+}
