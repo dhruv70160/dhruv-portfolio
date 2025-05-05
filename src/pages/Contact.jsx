@@ -180,7 +180,7 @@ export default function Contact() {
               <h3 className="text-xl font-bold text-gold mb-4">Connect With Me</h3>
               <div className="flex gap-6">
                 <a 
-                  href="https://github.com/dhruvgabani" 
+                  href="https://github.com/dhruv70160" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center hover:bg-gold transition"
@@ -188,7 +188,7 @@ export default function Contact() {
                   <FiGithub className="text-2xl" />
                 </a>
                 <a 
-                  href="https://linkedin.com/in/dhruvgabani" 
+                  href="https://www.linkedin.com/in/dhruv-gabani-b0062925b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center hover:bg-gold transition"
@@ -196,7 +196,7 @@ export default function Contact() {
                   <FiLinkedin className="text-2xl" />
                 </a>
                 <a 
-                  href="https://twitter.com/dhruvgabani" 
+                  href="https://www.instagram.com/im._dhruvv?igsh=MXJndXdxOTF3dndpMA==" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center hover:bg-gold transition"
