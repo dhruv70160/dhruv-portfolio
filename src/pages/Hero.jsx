@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
+import dprofile from '../assets/dprofile.jpg';
 
 export default function Hero() {
   return (
@@ -21,12 +22,13 @@ export default function Hero() {
         className="text-center z-10 space-y-8 px-4"
       >
         {/* Profile Photo */}
+         
         <motion.img 
-          src="/src/assets/dprofile.jpg"
-          alt="Dhruv Gabani"
-          className="w-32 h-32 rounded-full mx-auto border-4 border-gold"
-          whileHover={{ scale: 1.1 }}
-        />
+         src={dprofile}
+         alt="Dhruv Gabani"
+         className="w-32 h-32 rounded-full mx-auto border-4 border-gold"
+         whileHover={{ scale: 1.1 }}
+       />
 
         {/* Name */}
         <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-gold to-maroon bg-clip-text text-transparent">

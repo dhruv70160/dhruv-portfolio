@@ -18,9 +18,9 @@ const projects = [
     links: {
       live: "#",
       github: "#",
-      article: "/src/assets/projects/espresso-cafe.pdf"
+      article: "/projects/espresso-cafe.pdf"
     },
-    image: "/src/assets/projects/espresso.jpg"
+    image: "/projects/espresso.jpg"
   },
   {
     title: "Smart Hoodie",
@@ -30,9 +30,9 @@ const projects = [
     links: {
       live: "#",
       github: "#",
-      article: "/src/assets/projects/smart-hoodie.pdf"
+      article: "/projects/smart-hoodie.pdf"
     },
-    image: "/src/assets/projects/hoodie.jpg"
+    image: "/projects/hoodie.jpg"
   }
 ];
 

@@ -54,7 +54,7 @@ export default function About() {
             
             {/* Resume Download */}
             <motion.a
-              href="/src/assets/resume.pdf"
+              href="/resume.pdf"
               download
               whileHover={{ scale: 1.05 }}
               className="inline-flex items-center gap-2 bg-gold text-black px-6 py-3 rounded-full font-bold"
